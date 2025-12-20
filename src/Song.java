@@ -34,14 +34,14 @@ public class Song {
         this.duration = duration;
     }
 
-    @Override
+  
     public String toString() {
         return "Song{title='" + title +
                 "', artist=" + artist.getName() +
                 ", duration=" + duration + " sec}";
     }
 
-    @Override
+    
     public boolean equals(Object obj) {
         if (this == obj) return true;
         if (!(obj instanceof Song)) return false;
