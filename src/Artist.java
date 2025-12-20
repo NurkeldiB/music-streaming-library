@@ -24,7 +24,7 @@ public class Artist {
         this.genre = genre;
     }
 
-    @Override
+   
     public String toString() {
         return "Artist{name='" + name + "', genre='" + genre + "'}";
     }
