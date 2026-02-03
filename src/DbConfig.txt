@@ -1,0 +1,3 @@
+DB_URL=jdbc:postgresql://localhost:5432/oop_assignment
+DB_USER=postgres
+DB_PASSWORD=<ТВОЙ_ПАРОЛЬ>
