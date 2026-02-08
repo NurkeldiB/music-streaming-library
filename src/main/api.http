@@ -1,0 +1,31 @@
+POST http://localhost:8080/api/tracks
+Content-Type: application/json
+
+{
+  "title": "Song A",
+  "durationSec": 180
+}
+###
+
+GET http://localhost:8080/api/tracks
+
+
+###
+
+GET http://localhost:8080/api/tracks/1
+
+
+###
+
+PUT http://localhost:8080/api/tracks/1
+Content-Type: application/json
+
+{
+  "title": "Song A (Edited)",
+  "durationSec": 200
+}
+
+
+###
+
+DELETE http://localhost:8080/api/tracks/1
